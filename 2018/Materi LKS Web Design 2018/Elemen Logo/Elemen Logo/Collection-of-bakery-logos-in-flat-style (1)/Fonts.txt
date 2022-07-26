@@ -1,0 +1,10 @@
+Fonts used in this design;
+
+Font: Pacifico, 
+Author: Vernon Adams, 
+Url: http://www.fontsquirrel.com/fonts/pacifico; 
+
+Font: Glacial Indifference, 
+Author: Hanken Design Co., 
+Url: http://www.fontsquirrel.com/fonts/glacial-indifference; 
+

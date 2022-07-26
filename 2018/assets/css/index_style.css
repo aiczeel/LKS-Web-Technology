@@ -1,0 +1,290 @@
+*{
+    padding:0;
+}
+
+body {
+    background-color:#FFDEAD;
+}
+
+#container {
+    border:0px solid #000;
+    width:1024px;
+    height:auto;
+    margin:auto;
+    position:relative;
+}
+
+#navbar {
+    border:0px solid #000;
+    height:60px;
+}
+
+.menu {
+    border:0px solid #000;
+    width:35%;
+    height:20px;
+    float:right;
+    margin-top:13px;
+    text-align:right;
+    margin-right:3px;
+}
+
+.menu a{
+    color:#000;
+    font-family:sans-serif;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.menu a:hover{
+    font-weight:bold;
+}
+
+.logo {
+    border:0px solid #000;
+    width:50px;
+    height:100%;
+    float:left;
+    border-radius:100%;
+}
+
+.logo img {
+    width:50px;
+    border-radius:100%;
+}
+
+.title {
+    margin-top:13px;
+    float:left;
+    color:#000;
+    font-family:sans-serif;
+}
+
+.title b {
+    margin-left:5px;
+}
+
+#slideshow {
+    border:0px solid #000;
+    width:1024px;
+    height:300px;
+    border-radius:10px;
+}
+
+#tagline {
+    border:0px solid #000;
+    width:1024px;
+    height:80px;
+}
+
+.tagline {
+    border:0px solid #000;
+    width:100%;
+    color:#000;
+    font-family:sans-serif;
+    padding-top:10px;
+    margin:auto;
+    text-align:center;
+}
+
+#content {
+    border:0px solid #000;
+    width:1024px;
+    height:450px;
+    font-family:sans-serif;
+    color:#000;
+}
+
+.content-box {
+    border:3px solid #808080;
+    width:320px;
+    height:290px;
+    text-align:center;
+    font-size:15px;
+    border-radius:10px;
+}
+
+.content-box img {
+    width:300px;
+    height:250px;
+    margin-top:10px;
+}
+
+.label {
+    font-weight:bold;
+    text-align:center;
+}
+
+.kue_basah, .kue_kering, .bolu {
+    border:0px solid #000;
+    width:320px;
+    height:430px;
+    float:left;
+    margin-top:10px;
+    margin-left:15px;
+    font-size:15px;
+}
+
+.list {
+    border:1px solid #000;
+    width:170px;
+    height:20px;
+    padding:5px;
+    margin:auto;
+    text-align:center;
+    border-radius: 5px 5px 5px 5px;
+    background-color:#000;
+}
+
+.list a{
+    color:#fff;
+    font-family:sans-serif;
+    font-size:15px;
+    text-decoration:none;
+}
+
+#profile {
+    border:0px solid #000;
+    width:1024px;
+    height:350px;
+    background-color:#808080;
+}
+
+.chef_photo {
+    border:0px solid #000;
+    width:300px;
+    height:300px;
+    float:left;
+    margin-top:25px;
+    margin-left:25px;
+    border-radius:100%;
+}
+
+.chef_photo img {
+    width:100%;
+    height:100%;
+    margin:auto;
+    border-radius:100%;
+}
+
+.chef_desc {
+    border:0px solid #000;
+    width:650px;
+    height:300px;
+    float:left;
+    margin-top:25px;
+    margin-left:25px;
+    font-family:sans-serif;
+}
+
+.chef_desc label {
+    font-weight:bold;
+    font-size:35px;
+}
+
+.chef_desc a {
+    font-size:17px;
+    text-decoration:none;
+}
+
+#footer {
+    border:0px solid #000;
+    background-color:#000;
+    height:100px;
+}
+
+.attribute {
+    border:0px solid #fff;
+    width:40%;
+    margin:auto;
+    color:#fff;
+    font-family:sans-serif;
+    font-size:13px;
+    padding:25px;
+    text-align:center;
+}
+
+.icon {
+    border:0px solid #fff;
+    width:55%;
+    margin:auto;
+}
+
+.icon img {
+    width:30px;
+    height:30px;
+}
+
+.slideshowContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    border-radius:10px;
+}
+
+.imageSlides {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: -1;
+    border-radius:10px;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.slideshowArrow {
+    font-size: 7em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.slideshowArrow:hover {
+    opacity: 0.75;
+}
+
+#leftArrow {
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#rightArrow {
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.slideshowCircles {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.circle {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    transition: 1s ease-in-out;
+}
+
+.dot {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid 2px rgba(255, 255, 255, 0.5);
+}
